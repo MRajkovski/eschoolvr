@@ -1,2 +1,2 @@
-web: gunicorn domasna5.wsgi --log-file -
+web: gunicorn Domasna5.wsgi --log-file -
 release: python manage.py migrate
