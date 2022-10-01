@@ -1,0 +1,37 @@
+{% extends 'vrschool/main.html' %}
+{% block content %}
+
+
+<div class="row">
+	<div class="col-md">
+		<div class="card card-body">
+			<table class="table table-sm">
+				<h3>Purchased courses</h3>
+				<tr>
+					<th>Name</th>
+					<th>Teacher</th>
+					<th>Next session</th>
+					<th>Presentations</th>
+					<th></th>
+				</tr>
+
+				{% for course in courses %}
+
+				<tr>
+					<td>{{course.name}}</td>
+					<td>{{course.teacher}}</td>
+					<td></td>
+					<td>{{course.imageURL}}</td>
+				</tr>
+				{% endfor %}
+
+			</table>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<a class="btn btn-warning" href="{% url 'edit' %}">Edit profile</a>
+</div>
+
+
+{% endblock content %}
