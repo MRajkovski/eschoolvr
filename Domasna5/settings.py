@@ -77,11 +77,14 @@ WSGI_APPLICATION = 'Domasna5.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd36b6u43kvmko4',
+        'USER': 'hhkysrfgkeniog',
+        'PASSWORD': '6bf8f29c0f039b7ce314cc7ab0967b832d260454c65b52c5173d67ce2dd6253a',
+        'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
