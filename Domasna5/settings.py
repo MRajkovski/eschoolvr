@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['eschoolvr.herokuapp.com','localhost','127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'whitenoise.runserver_nostatic',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
