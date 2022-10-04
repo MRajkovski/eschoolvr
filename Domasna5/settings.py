@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'Domasna5.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd36b6u43kvmko4',
-        'USER': 'hhkysrfgkeniog',
-        'PASSWORD': '6bf8f29c0f039b7ce314cc7ab0967b832d260454c65b52c5173d67ce2dd6253a',
-        'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
+        'NAME': 'dautorv7vj3uls',
+        'USER': 'wpefhkroxjrweb',
+        'PASSWORD': 'cf2275b395fcef3750039f4b08ee0640716421d4c1e0c284c376fb9e630c5b69',
+        'HOST': 'ec2-34-239-81-70.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
